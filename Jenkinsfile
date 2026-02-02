@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo("Hello Test1")
 		sleep(10)
-		pwd
+		pwd(ls)
 		echo("Hello Test2")
 		echo("Hello Test3")
             }
