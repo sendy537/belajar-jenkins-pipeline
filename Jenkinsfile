@@ -18,7 +18,6 @@ pipeline {
             steps {
                 echo("Hello Test1")
 		sleep(10)
-		sh(error)
 		echo("Hello Test2")
 		echo("Hello Test3")
             }
