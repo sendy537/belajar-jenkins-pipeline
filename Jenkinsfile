@@ -1,3 +1,5 @@
+pwd
+
 pipeline {
     agent {
 	node {
