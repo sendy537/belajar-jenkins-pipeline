@@ -1,5 +1,3 @@
-pwd
-
 pipeline {
     agent {
 	node {
