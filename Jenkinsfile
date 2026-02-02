@@ -15,10 +15,10 @@ pipeline {
             }
         }
 	stage("Test") {
-		pwd
             steps {
                 echo("Hello Test1")
 		sleep(10)
+		pwd
 		echo("Hello Test2")
 		echo("Hello Test3")
             }
