@@ -18,8 +18,8 @@ pipeline {
             steps {
                 echo("Hello Test1")
 		sleep(10)
-		echo("Hello Test2")
-		echo("Hello Test3")
+		sh 'pwd'
+		sh 'ls -l'
             }
         }
 	stage("Deploy") {
